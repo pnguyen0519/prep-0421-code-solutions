@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Grid Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      max-width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100% / 3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Complete the HTML here -->
+<h3>Indiana Jones</h3>
+<div class="container">
+
+    <div class="row">
+
+        <div class="column">
+          <img src="images/raiders.jpg" style="width: 100%;"><b>Raiders of the Lost Ark</b></div>
+        <div class="column">
+          <img src="images/temple.jpg" style="width: 100%;"><b>Temple of Doom</b></div>
+        <div class="column">
+          <img src="images/crusade.png" style="width: 100%;"><b>The Last Crusade</b></div>
+    </div>
+</div>
+
+<p></p>
+
+</body>
+</html>
